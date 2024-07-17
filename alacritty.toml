@@ -1,0 +1,139 @@
+shell = '/usr/bin/tmux'
+
+[colors.primary]
+background = '#000000'
+foreground = '#f0f3f6'
+
+[colors.cursor]
+text = '#0a0c10'
+cursor = '#f0f3f6'
+
+[colors.normal]
+black = '#7a828e'
+red = '#ff9492'
+green = '#26cd4d'
+yellow = '#f0b72f'
+blue = '#71b7ff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+[colors.bright]
+black = '#9ea7b3'
+red = '#ffb1af'
+green = '#4ae168'
+yellow = '#f7c843'
+blue = '#91cbff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14
+
+[font.normal]
+family = "MesloLGS NF"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0003"
+key = "C"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0012"
+key = "R"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ClearLogNotice"
+key = "L"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "L"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[scrolling]
+history = 5000
+
+[window]
+decorations = "none"
+opacity = 0.6
+startup_mode = "Maximized"
+padding = { x = 10, y = 10}
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }

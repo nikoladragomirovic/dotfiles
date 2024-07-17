@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "10f2240e3ea33d20",
+    "type": "split",
+    "children": [
+      {
+        "id": "20e51e7392af20c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa326b167356ccc7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c14ca6fcea5d5da",
+    "type": "split",
+    "children": [
+      {
+        "id": "42b023b2b4592906",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b50eeca6b19a62f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92b485db4312efa4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 364.5
+  },
+  "right": {
+    "id": "ba2e3f4116f3bfff",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aa326b167356ccc7",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled.md",
+    "CV NIKOLA DRAGOMROVIĆ.md",
+    "(WIP) NILE UBUNTU SETUP.md",
+    "XCENTRIC/HOMEPAGE BUILDER ELEMENT GUIDE.png",
+    "XCENTRIC/OFFICE INFO.md",
+    "NEW HOMEPAGE BUILDER ELEMENT GUIDE.md",
+    "XCENTRIC",
+    "2024-07-15.md",
+    "ACK - 1762.md",
+    "XCENTRIC/TASKS",
+    "Welcome.md"
+  ]
+}
