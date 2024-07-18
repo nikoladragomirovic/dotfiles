@@ -2,5 +2,8 @@
   "accentColor": "#d274c1",
   "cssTheme": "",
   "showViewHeader": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "hide_sidebar_button"
+  ]
 }
