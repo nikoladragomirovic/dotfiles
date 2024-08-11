@@ -2,7 +2,9 @@
 
 CURRENT SYSTEM - UBUNTU | GNOME
 
-## ZSH
+## INSTALL
+
+### ZSH
 
 ```
 sudo apt install zsh
@@ -28,7 +30,7 @@ chsh -s $(which zsh)
 
 ###### LOG OUT TO SEE CHANGES
 
-## OH MY ZSH
+### OH MY ZSH
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -58,13 +60,13 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 ```
 
-## OH MY POSH
+### OH MY POSH
 
 ```
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
-## WEZTERM
+### WEZTERM
 
 ```
 curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
@@ -79,7 +81,7 @@ sudo apt update
 sudo apt install wezterm
 ```
 
-## GNOME SHELL EXTENSIONS
+### GNOME SHELL EXTENSIONS
 
 ```
 sudo apt install gnome-shell-extensions
@@ -94,20 +96,20 @@ sudo apt install gnome-shell-extension-manager
 - https://extensions.gnome.org/extension/3843/just-perfection/
 - https://extensions.gnome.org/extension/3628/arcmenu/
 
-## GNOME TWEAKS
+### GNOME TWEAKS
 
 ```
 sudo apt install gnome-tweaks
 ```
 
+## SYSTEM SETTINGS
+
+- `ctrl + tab` -> switch application
+
 ##### KEYBOARD SETTINGS
 
 - `ctrl` <-> `alt`
 - `capslock` disable
-
-## SYSTEM SETTINGS
-
-- `ctrl + tab` -> switch application
 
 ## CONFIGURATION
 
