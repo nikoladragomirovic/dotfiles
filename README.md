@@ -2,10 +2,6 @@
 
 CURRENT SYSTEM - UBUNTU | GNOME
 
-## SYSTEM SETTINGS
-
-- `ctrl + tab` -> switch application
-
 ## ZSH
 
 ```
@@ -109,9 +105,11 @@ sudo apt install gnome-tweaks
 - `ctrl` <-> `alt`
 - `capslock` disable
 
-## CONFIGURATION
+## SYSTEM SETTINGS
 
-##### INSIDE REPOSITORY RUN
+- `ctrl + tab` -> switch application
+
+## CONFIGURATION
 
 ```
 cp zshrc ~/.zshrc
