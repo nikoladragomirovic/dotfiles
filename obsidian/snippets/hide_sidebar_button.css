@@ -1,8 +1,0 @@
-.workspace-tab-header-tab-list > span {
-    display: none;
-}
-
-.mod-root .workspace-tab-header-tab-list > span,
-.sidebar-toggle-button.mod-left {
-  display: none
-}
