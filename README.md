@@ -63,7 +63,7 @@ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZS
 ### OH MY POSH
 
 ```
-curl -s https://ohmyposh.dev/install.sh | bash -s
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d /usr/bin
 ```
 
 ### WEZTERM
@@ -100,6 +100,11 @@ sudo apt install gnome-shell-extension-manager
 
 ```
 sudo apt install gnome-tweaks
+```
+
+### MISC
+```
+sudo apt install eza fzf ripgrep bat
 ```
 
 ## SYSTEM SETTINGS

@@ -8,7 +8,7 @@ config.automatically_reload_config = true
 config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 config.default_cursor_style = "SteadyBar"
-config.font_size = 16.0
+config.font_size = 13.0
 config.adjust_window_size_when_changing_font_size = false
 config.line_height = 1.25
 
@@ -30,7 +30,7 @@ if is_macos then
             action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" }
         },
         {
-            key = '-',
+            key = '}',
             mods = 'CMD|SHIFT',
             action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" }
         },
@@ -76,7 +76,7 @@ elseif is_linux then
             action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" }
         },
         {
-            key = '-',
+            key = '}',
             mods = 'CTRL|SHIFT',
             action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" }
         },
@@ -100,7 +100,7 @@ elseif is_linux then
         {
             key = 't',
             mods = 'CTRL',
-            action = wezterm.action.SpawnTab { domain = "CurrentPaneDomain" }
+            action = wezterm.action.SpawnTab "DefaultDomain"
         },
 
         -- ADJUST DEFAULT TERMINAL ACTIONS
@@ -120,6 +120,11 @@ elseif is_linux then
             action = wezterm.action.SendKey { key = 'u', mods = 'CTRL' }
         },
         {
+            key = 'r',
+            mods = 'ALT',
+            action = wezterm.action.SendKey { key = 'r', mods = 'CTRL' }
+        },
+        {
             key = 'c',
             mods = 'CTRL',
             action = "Nop"
@@ -131,6 +136,11 @@ elseif is_linux then
         },
         {
             key = 'u',
+            mods = 'CTRL',
+            action = "Nop"
+        },
+        {
+            key = 'r',
             mods = 'CTRL',
             action = "Nop"
         },
