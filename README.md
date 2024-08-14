@@ -131,5 +131,5 @@ cp wezterm.lua ~/.wezterm.lua
 ```
 
 ```
-dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions.conf
+dconf load / -f < gnome.conf
 ```
