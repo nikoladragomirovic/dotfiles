@@ -17,8 +17,8 @@ fuzzy_find_files() {
       fzf-tmux --ansi \
           --color "hl:-1:underline,hl+:-1:underline:reverse" \
           --delimiter : \
-          --preview 'bat --color=always {1} --highlight-line {2}' \
-          --preview-window 'up,70%,border-bottom,+{2}+3/3,~3' \
+          --preview 'batcat --color=always {1} --highlight-line {2}' \
+          --preview-window 'right,70%,border-left,+{2}+3/3,~3' \
           --bind 'enter:become(phpstorm --line {2} {1})' \
           --with-nth=1
 }
