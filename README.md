@@ -107,15 +107,6 @@ sudo apt install gnome-tweaks
 sudo apt install eza fzf ripgrep bat
 ```
 
-## SYSTEM SETTINGS
-
-- `ctrl + tab` -> switch application
-
-##### KEYBOARD SETTINGS
-
-- `ctrl` <-> `alt`
-- `capslock` disable
-
 ## CONFIGURATION
 
 ```
@@ -131,5 +122,5 @@ cp wezterm.lua ~/.wezterm.lua
 ```
 
 ```
-dconf load / -f < gnome.conf
+dconf load -f / < gnome.conf
 ```

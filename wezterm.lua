@@ -11,6 +11,8 @@ config.default_cursor_style = "SteadyBar"
 config.font_size = 13.0
 config.adjust_window_size_when_changing_font_size = false
 config.line_height = 1.25
+config.initial_rows = 30
+config.initial_cols = 145
 
 -- APPLY DIFFERENT KEYBINDS BASED ON SYSTEM
 local is_macos = wezterm.target_triple == "x86_64-apple-darwin" or wezterm.target_triple == "aarch64-apple-darwin"
